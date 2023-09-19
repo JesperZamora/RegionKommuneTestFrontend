@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Put Kommune</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Post and Put Kommune objects</h2>
+
+    <label for="inpKode">Kommune kode:</label>
+    <input type="text" id="inpKode" placeholder="1234">
+    <br>
+    <label for="inpNavn">Kommune navn:</label>
+    <input type="text" id="inpNavn" placeholder="Greenfield">
+    <br>
+    <label for="inpHref">Kommune Href:</label>
+    <input type="text" id="inpHref" placeholder="https://www.kommune.com">
+    <br>
+    <label for="inpHref">Region kode:</label>
+    <input type="text" id="inpKodeRegion" placeholder="1234">
+    <br>
+    <button id="pbPost">Opret ny kommune</button>
+    <button id="pbPut">Opdater kommune</button>
+</div>
+
+<div class="container1">
+    <h2>Check kommuner</h2>
+    <label for="textArea">Kommuner:</label>
+    <textarea name="" id="textArea" cols="50" rows="16" placeholder="Press load kommuner"></textarea>
+    <br>
+    <button id="pbGet">Load kommuner</button>
+    <a href="post_put_region.html"><button>Opret region</button></a>
+</div>
+<script src="js/post_put_kommune.js"></script>
+</body>
+</html>

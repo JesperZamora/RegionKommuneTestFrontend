@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Put Region</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Post and Put Region objects</h2>
+
+    <label for="inpKode">Region kode:</label>
+    <input type="text" id="inpKode" placeholder="1234">
+    <br>
+
+    <label for="inpNavn">Region navn:</label>
+    <input type="text" id="inpNavn" placeholder="Greenfield">
+    <br>
+
+    <label for="inpHref">Region Href:</label>
+    <input type="text" id="inpHref" placeholder="https://www.region.com">
+    <br>
+
+    <button disabled id="pbPost">Opret ny region</button>
+    <button id="pbPut">Opdater region</button>
+</div>
+
+<div class="container1">
+    <h2>Check Regioner</h2>
+    <label for="textArea">Regioner:</label>
+    <textarea name="" id="textArea" cols="50" rows="16" placeholder="Press load regioner"></textarea>
+    <br>
+    <button id="pbGet">Load regioner</button>
+    <a href="post_put_kommune.html"><button>Opret kommune</button></a>
+</div>
+
+</body>
+<script src="js/post_put_region.js"></script>
+</html>
